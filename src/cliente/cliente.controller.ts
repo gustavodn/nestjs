@@ -11,6 +11,7 @@ export class ClienteController {
     @Render('index')
     getAll(): Promise<ClienteInterface[]> {
         return this.clienteService.getAll();
+        
     }
     @Post()
     create(@Body() clienteDto: CrearClienteDto): Promise<ClienteInterface> {
