@@ -28,7 +28,7 @@
     "@nestjsx/crud-typeorm": "^4.2.0",
     "bootstrap": "^4.3.1",
     "class-transformer": "^0.2.3",
-    "class-validator": "^0.11.0",
+    "class-validator": "^0.14.0",
     "hbs": "^4.0.6",
     "joi": "^14.3.1",
     "mongoose": "^5.7.12",
